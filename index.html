@@ -4,122 +4,151 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simeon Greenwood</title>
-  <link rel="stylesheet" href="css/style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
-  <script src="https://unpkg.com/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
-  <style>
-    html.lenis { height: auto; }
-    .lenis.lenis-smooth { scroll-behavior: auto; }
-    .lenis.lenis-stopped { overflow: hidden; }
-    body { margin: 0; font-family: 'Helvetica Neue', sans-serif; background: #111; color: #fff; }
-  </style>
+  <script src="https://unpkg.com/@studio-freight/lenis@latest/dist/lenis.min.js" defer></script>
+  <script src="https://unpkg.com/lottie-web@5.10.2/build/player/lottie.min.js" defer></script>
 </head>
- 
 <body>
+  <header>
+    <div class="mobile-nav-toggle">☰</div>
+    <nav class="top-nav">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <div class="theme-toggle">🌙</div>
+    </nav>
+  </header>
 
-<!-- HERO SECTION -->
-<section class="hero">
-  <img src="your-hero-image.jpg" alt="Hero Image" class="hero-bg" />
-  <div class="hero-content">
-    <h1 class="hero-title">SIMEON GREENWOOD</h1>
-    <p class="hero-sub">Creative Technologist & Designer</p>
-  </div>
-</section>
-
-<!-- SCROLL ZOOM TRANSITION -->
-<section class="transition-banner">
-  <div class="banner-text">
-    <span>Creative</span>
-    <span>,</span>
-    <span>Technology</span>
-    <span class="amp">&amp;</span>
-    <span>Design</span>
-  </div>
-</section>
-
-<!-- ABOUT + BOOKS -->
-<main>
-
-  <section class="image-break">
-    <img src="your-second-mood-image.jpg" alt="Mood Image" />
-  </section>
-
-  <section class="about-section" id="about">
-    <h2>About Me</h2>
-    <p>I’m someone who genuinely enjoys exploring new tools and pushing creative boundaries...</p>
-    <!-- (Trimmed text for brevity) -->
-  </section>
-
-  <section class="books-section">
-    <h2>Our Books</h2>
-    <div class="book-grid">
-      <div class="book-card">
-        <img src="https://via.placeholder.com/300x400?text=Monster+Journal" alt="Monster Journal" />
-        <h3>Monster Journal</h3>
-        <p>A to Z Drawing Book for kids aged 2+</p>
-      </div>
-      <div class="book-card">
-        <img src="https://via.placeholder.com/300x400?text=Monster+Shapes" alt="Monster Shapes" />
-        <h3>Monster Come in Different Shapes</h3>
-        <p>Reading Book for ages 2+</p>
-      </div>
+  <section class="hero">
+    <img src="your-hero-image.jpg" class="hero-bg" alt="Hero Image"/>
+    <div class="hero-content">
+      <h1>SIMEON GREENWOOD</h1>
+      <p>Creative Technologist & Designer</p>
     </div>
   </section>
 
-  <section class="programming-section" id="programming">
-    <h2>Programming</h2>
-    <p>I’m learning Swift, Objective-C, and Python...</p>
+  <section class="transition-banner">
+    <div class="banner-text">
+      <span>Creative</span><span class="amp">&amp;</span>
+      <span>Technology</span><span class="amp">&amp;</span>
+      <span>Design</span>
+    </div>
   </section>
 
-  <section class="contact-section" id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:s3dbooks@gmail.com">s3dbooks@gmail.com</a></p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a creative professional exploring the boundaries between 3D, design, and emerging tech.</p>
+    </section>
 
-</main>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-modal="modal1">
+          <img src="https://www.s3dbooks.com/img/project1.jpg" alt="Portfolio Item 1"/>
+        </div>
+        <div class="portfolio-item" data-modal="modal2">
+          <img src="https://www.s3dbooks.com/img/project2.jpg" alt="Portfolio Item 2"/>
+        </div>
+      </div>
 
-<footer>
-  &copy; 2025 Simeon Greenwood – S3D Books
-</footer>
+      <div class="modal" id="modal1">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Project One</h3>
+          <img src="https://www.s3dbooks.com/img/project1.jpg" alt="">
+          <p>Full description of project one goes here...</p>
+        </div>
+      </div>
+      <div class="modal" id="modal2">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Project Two</h3>
+          <img src="https://www.s3dbooks.com/img/project2.jpg" alt="">
+          <p>Full description of project two goes here...</p>
+        </div>
+      </div>
+    </section>
 
-    <button id="backToTop" title="Back to Top">↑</button>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:s3dbooks@gmail.com">s3dbooks@gmail.com</a></p>
+    </section>
 
-<!-- SMOOTH SCROLL + ZOOM EFFECTS -->
-<script>
-  // Lenis
-  const lenis = new Lenis({ smooth: true, lerp: 0.1 });
-  function raf(time) {
-    lenis.raf(time);
+    <div class="lottie-wrapper">
+      <div id="lottie-code"></div>
+    </div>
+  </main>
+
+  <footer>&copy; 2025 Simeon Greenwood – S3D Books</footer>
+  <button id="backToTop" title="Back to Top">↑</button>
+
+  <script>
+    const lenis = new Lenis({ smooth: true, lerp: 0.1 });
+    function raf(time){ lenis.raf(time); requestAnimationFrame(raf); }
     requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
 
-  // GSAP Animations
-  gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.to(".hero-bg", {
+      scale: 1.2,
+      scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true }
+    });
 
-  gsap.to(".hero-bg", {
-    scale: 1.2,
-    scrollTrigger: {
-      trigger: ".hero",
-      start: "top top",
-      end: "bottom top",
-      scrub: true,
-    },
-  });
+    // Animate banner text
+    gsap.from(".banner-text span", {
+      y: 40, opacity: 0, stagger: 0.25,
+      scrollTrigger: { trigger: ".transition-banner", start: "top 85%", once: true }
+    });
 
-  gsap.to(".hero-title", {
-    scale: 0.6,
-    y: -100,
-    opacity: 0.6,
-    scrollTrigger: {
-      trigger: ".hero",
-      start: "top top",
-      end: "bottom top",
-      scrub: true,
-    },
-  });
-</script>
+    // Mobile navigation toggle
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const topNav = document.querySelector('.top-nav');
+    navToggle.addEventListener('click', () => topNav.classList.toggle('open'));
 
+    // Dark/light mode toggle
+    const themeToggle = document.querySelector('.theme-toggle');
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      themeToggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+      document.querySelector('header').classList.toggle('dark');
+    });
+
+    // Back-to-top button
+    const backBtn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+    backBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Portfolio modal logic
+    document.querySelectorAll('.portfolio-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.getElementById(item.dataset.modal).style.display = 'block';
+      });
+    });
+    document.querySelectorAll('.modal .close').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.closest('.modal').style.display = 'none';
+      });
+    });
+    window.addEventListener('click', e => {
+      if (e.target.classList.contains('modal')) {
+        e.target.style.display = 'none';
+      }
+    });
+
+    // Lottie hover animation
+    const anim = lottie.loadAnimation({
+      container: document.getElementById('lottie-code'),
+      renderer: 'svg', loop: true, autoplay: false,
+      path: 'https://assets4.lottiefiles.com/packages/lf20_tljjahaa.json'
+    });
+    const lottieBox = document.getElementById('lottie-code');
+    lottieBox.addEventListener('mouseenter', () => anim.play());
+    lottieBox.addEventListener('mouseleave', () => anim.stop());
+  </script>
 </body>
 </html>
