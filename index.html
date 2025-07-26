@@ -7,87 +7,116 @@
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
-  <script src="scroll.js" defer></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
+  <style>
+    html.lenis { height: auto; }
+    .lenis.lenis-smooth { scroll-behavior: auto; }
+    .lenis.lenis-stopped { overflow: hidden; }
+    body { margin: 0; font-family: 'Helvetica Neue', sans-serif; background: #111; color: #fff; }
+  </style>
 </head>
 <body>
 
-  <header>
-  <div class="name-container">
-    <h1>SIMEON GREENWOOD</h1>
+<!-- HERO SECTION -->
+<section class="hero">
+  <img src="your-hero-image.jpg" alt="Hero Image" class="hero-bg" />
+  <div class="hero-content">
+    <h1 class="hero-title">SIMEON GREENWOOD</h1>
+    <p class="hero-sub">Creative Technologist & Designer</p>
   </div>
-  <p>Creative Technologist & Designer</p>
-</header>
+</section>
 
-  <div class="top-nav">
-    <a href="#about">About</a>
-    <a href="#programming">Programming</a>
-    <a href="#contact">Contact</a>
+<!-- SCROLL ZOOM TRANSITION -->
+<section class="transition-banner">
+  <div class="banner-text">
+    <span>Creative</span>
+    <span class="amp">&</span>
+    <span>Technology</span>
+    <span class="amp">&</span>
+    <span>Design</span>
   </div>
+</section>
 
-  <main>
-    <section class="books-section">
-      <h2>Our Books</h2>
-      <div class="book-grid">
-       <div class="book-grid">
-        <div class="book-card">
-          <img src="https://via.placeholder.com/300x400?text=Monster+Journal" alt="Monster Journal">
-          <h3>Monster Journal</h3>
-          <p>A to Z Drawing Book for kids aged 2+</p>
-          <ul>
-            <li>Learn English, Maths, Spanish</li>
-            <li>Draw, Doodle & Colour</li>
-            <li>109+ full-color pages</li>
-          </ul>
-        </div>
+<!-- ABOUT + BOOKS -->
+<main>
 
-        <div class="book-card">
-          <img src="https://via.placeholder.com/300x400?text=Monster+Shapes" alt="Monster Come In Different Shapes">
-          <h3>Monster Come in Different Shapes</h3>
-          <p>Reading Book for ages 2+</p>
-          <ul>
-            <li>Positive messages about diversity</li>
-            <li>Learn spelling with poetry</li>
-            <li>20+ full-color pages</li>
-          </ul>
-        </div>
+  <section class="image-break">
+    <img src="your-second-mood-image.jpg" alt="Mood Image" />
+  </section>
+
+  <section class="about-section" id="about">
+    <h2>About Me</h2>
+    <p>I’m someone who genuinely enjoys exploring new tools and pushing creative boundaries...</p>
+    <!-- (Trimmed text for brevity) -->
+  </section>
+
+  <section class="books-section">
+    <h2>Our Books</h2>
+    <div class="book-grid">
+      <div class="book-card">
+        <img src="https://via.placeholder.com/300x400?text=Monster+Journal" alt="Monster Journal" />
+        <h3>Monster Journal</h3>
+        <p>A to Z Drawing Book for kids aged 2+</p>
       </div>
+      <div class="book-card">
+        <img src="https://via.placeholder.com/300x400?text=Monster+Shapes" alt="Monster Shapes" />
+        <h3>Monster Come in Different Shapes</h3>
+        <p>Reading Book for ages 2+</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="about-section" id="about">
-      <h2>About Me</h2>
-<p>I’m someone who genuinely enjoys exploring new tools and pushing creative boundaries to get the best results, even when working within tight constraints. I get a real kick out of diving into new software and experimenting with different techniques. Over time, I’ve built up a pretty broad skill set across design—modelling, texturing, lighting, rigging, and animation—and I tend to adapt depending on what the project needs most.</p>
+  <section class="programming-section" id="programming">
+    <h2>Programming</h2>
+    <p>I’m learning Swift, Objective-C, and Python...</p>
+  </section>
 
-<p>In past roles, I’ve often found ways to speed up workflows, whether by scripting or tweaking software to fit the task better—sometimes cutting down what would’ve been a week’s work into just a few days. I like problem-solving like that.</p
+  <section class="contact-section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:s3dbooks@gmail.com">s3dbooks@gmail.com</a></p>
+  </section>
 
-<p>I’ll be honest—communication hasn’t always been my strongest area, but I’ve been working on it. I try to let the quality of my work speak for me, and I’m always pushing to do better, both creatively and professionally.</P>
-      
-<h2>Skills:</h2>
-<h3>Interior design / 2D Drawing</h3>
-<p>Vectorworks, Revit,  AutoCAD or ArchiCAD</p>
+</main>
 
-<h3>3D Creative design, rendering and animation</h3>
-<p>Modo, Blender, 3DS Viz, 3Ds Max, Unreal</p>
+<footer>
+  &copy; 2025 Simeon Greenwood – S3D Books
+</footer>
 
-<h3>Programming</h3>
-swift, objective-c and some python
+<!-- SMOOTH SCROLL + ZOOM EFFECTS -->
+<script>
+  // Lenis
+  const lenis = new Lenis({ smooth: true, lerp: 0.1 });
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
 
-<h3>Languages</h3>
-<p>English, basic french and currently learning Spanish.</p>
-    </section>
+  // GSAP Animations
+  gsap.registerPlugin(ScrollTrigger);
 
-    <section class="programming-section" id="programming">
-      <h2>Programming</h2>
-      <p>I’m learning Swift, Objective-C, and Python to merge creativity with logic in my 3D work and animation. Visit my <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>.</p>
-    </section>
+  gsap.to(".hero-bg", {
+    scale: 1.2,
+    scrollTrigger: {
+      trigger: ".hero",
+      start: "top top",
+      end: "bottom top",
+      scrub: true,
+    },
+  });
 
-    <section class="contact-section" id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:s3dbooks@gmail.com">s3dbooks@gmail.com</a></p>
-    </section>
-  </main>
+  gsap.to(".hero-title", {
+    scale: 0.6,
+    y: -100,
+    opacity: 0.6,
+    scrollTrigger: {
+      trigger: ".hero",
+      start: "top top",
+      end: "bottom top",
+      scrub: true,
+    },
+  });
+</script>
 
-  <footer>
-    &copy; 2025 Simeon Greenwood – S3D Books
-  </footer>
 </body>
+</html>
