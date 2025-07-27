@@ -1,206 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
-
-:root {
-  --text: #111;
-  --bg: #fdfdfd;
-  --gray-strip: #ccc2b9;
-  --accent: #ff4f4f;
-}
-
-body {
+/* Reset */
+* {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
   line-height: 1.6;
-  transition: background 0.4s, color 0.4s;
+  background: #fff;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-body.dark {
-  background: #111;
-  color: #fdfdfd;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  position: sticky;
+/* Glass Nav */
+#glassNav {
+  position: fixed;
   top: 0;
-  background: var(--bg);
+  width: 100%;
+  padding: 1rem 2rem;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.7);
+  display: none;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1000;
 }
-
-.top-nav {
+#glassNav nav {
   display: flex;
-  gap: 1.5em;
+  gap: 1rem;
 }
-
-.mobile-nav-toggle {
-  display: none;
-  font-size: 1.5em;
+#glassNav nav button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
-.theme-toggle {
-  cursor: pointer;
-}
-
+/* Hero */
 .hero {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
-
-.hero-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
+.hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
 }
-
-.hero-content {
-  position: relative;
-  padding: 15vh 5%;
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin: 0;
-  font-weight: 600;
-}
-
-.transition-banner {
-  background: var(--gray-strip);
-  padding: 2em 0;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.transition-banner .amp {
-  font-size: 2rem;
-  margin: 0 0.5em;
-  font-weight: bold;
-}
-
-main section {
-  padding: 3em 1em;
-  max-width: 900px;
-  margin: auto;
-}
-
-.portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-  justify-content: center;
-}
-
-.portfolio-item {
-  width: 45%;
-  cursor: pointer;
-}
-
-.portfolio-item img {
-  width: 100%;
-  border-radius: 8px;
-  transition: transform 0.3s;
-}
-
-.portfolio-item:hover img {
-  transform: scale(1.05);
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  justify-content: center;
-  align-items: center;
-  z-index: 10000;
-}
-
-.modal-content {
-  background: #fff;
-  color: #111;
-  padding: 2em;
-  border-radius: 8px;
-  max-width: 90%;
-  max-height: 90%;
-  overflow: auto;
-  position: relative;
-}
-
-.modal-content img {
-  width: 100%;
-  margin-bottom: 1em;
-}
-
-.modal .close {
+.hero-title {
   position: absolute;
-  top: 1em;
-  right: 1em;
-  font-size: 1.5em;
-  cursor: pointer;
+  bottom: 3rem;
+  left: 2rem;
+  font-size: 4vw;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
-.lottie-wrapper {
+/* Section Styling */
+section {
+  padding: 4rem 2rem;
+}
+#about ul.skills {
+  list-style: disc;
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 12px;
   text-align: center;
-  margin-top: 2em;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-
-footer {
-  padding: 2em;
-  text-align: center;
-  background: #eee;
-  color: #333;
+.card img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
-
-#backToTop {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  font-size: 1.5rem;
-  background: var(--accent);
+.buy {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: black;
   color: white;
   border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: none;
   cursor: pointer;
-  z-index: 9999;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .portfolio-item {
-    width: 100%;
-  }
+/* Footer */
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: #eee;
+}
 
-  .top-nav {
-    display: none;
-    flex-direction: column;
-    gap: 1em;
-    background: var(--bg);
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    padding: 1em;
-  }
+/* Dark mode */
+body.dark {
+  background: #111;
+  color: #f4f4f4;
+}
+body.dark .card {
+  background: #222;
+}
+body.dark #glassNav {
+  background: rgba(20, 20, 20, 0.8);
+}
 
-  .top-nav.open {
-    display: flex;
-  }
-
-  .mobile-nav-toggle {
-    display: block;
-  }
+/* Simplify mode */
+body.simplify img,
+body.simplify .buy {
+  display: none;
 }
