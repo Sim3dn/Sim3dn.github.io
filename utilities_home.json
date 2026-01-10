@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Electricity & Gas Bill",
+    "icon": "wrench.fill",
+    "category": "Utilities",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["British Gas", "E.ON Next", "OVO Energy", "Scottish Power"],
+    "defaultPrice": 130.00,
+    "defaultSupplier": "E.ON Next",
+    "managementURL": "https://login.eonnext.com/sign-in"
+  },
+  {
+    "title": "Water Bill",
+    "icon": "wrench.fill",
+    "category": "Utilities",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Thames Water", "Severn Trent", "United Utilities", "Yorkshire Water"],
+    "defaultPrice": 35.00,
+    "defaultSupplier": "Thames Water",
+    "managementURL": "https://my.thameswater.co.uk/myaccount/login"
+  },
+  {
+    "title": "Council Tax",
+    "icon": "creditcard.fill",
+    "category": "Bills",
+    "suggestedIntervalMonths": 12,
+    "commonSuppliers": ["Local Council"],
+    "defaultPrice": 150.00,
+    "defaultSupplier": "Council Name (User input)",
+    "managementURL": "https://www.gov.uk/find-local-council"
+  },
+  {
+    "title": "Home Security Monitoring",
+    "icon": "house.fill",
+    "category": "Home",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Ring Protect", "Verisure", "ADT", "Simplisafe"],
+    "defaultPrice": 10.00,
+    "defaultSupplier": "Ring Protect",
+    "managementURL": "https://ring.com/account/dashboard"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Car Insurance (Monthly Payment)",
+    "icon": "car.fill",
+    "category": "Bills",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Admiral", "Direct Line", "Aviva", "Hastings"],
+    "defaultPrice": 60.00,
+    "defaultSupplier": "Admiral",
+    "managementURL": "https://myaccount.admiral.com/login"
+  },
+  {
+    "title": "Life Insurance Policy",
+    "icon": "banknote",
+    "category": "Savings",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Legal & General", "Aviva", "Vitality"],
+    "defaultPrice": 25.00,
+    "defaultSupplier": "Legal & General",
+    "managementURL": "https://www.legalandgeneral.com/my-account/"
+  },
+  {
+    "title": "Subscription Savings/Investment App",
+    "icon": "banknote",
+    "category": "Savings",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Moneybox Plus", "Plum Pro", "Hargreaves Lansdown"],
+    "defaultPrice": 2.00,
+    "defaultSupplier": "Moneybox",
+    "managementURL": "https://www.moneyboxapp.com/login"
+  },
+  {
+    "title": "Will/Legal Service Subscription",
+    "icon": "creditcard.fill",
+    "category": "Bills",
+    "suggestedIntervalMonths": 12,
+    "commonSuppliers": ["National Will Archive", "Various Law Firms"],
+    "defaultPrice": 60.00,
+    "defaultSupplier": "Legal Firm Name (User input)",
+    "managementURL": "https://www.gov.uk/browse/visas-immigration/eu-eea"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Microsoft 365 Family/Personal",
+    "icon": "building.2.fill",
+    "category": "Work",
+    "suggestedIntervalMonths": 12,
+    "commonSuppliers": ["Microsoft"],
+    "defaultPrice": 79.99,
+    "defaultSupplier": "Microsoft",
+    "managementURL": "https://account.microsoft.com/services"
+  },
+  {
+    "title": "LinkedIn Premium Career",
+    "icon": "building.2.fill",
+    "category": "Work",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["LinkedIn"],
+    "defaultPrice": 29.99,
+    "defaultSupplier": "LinkedIn",
+    "managementURL": "https://www.linkedin.com/premium/subscription/details"
+  },
+  {
+    "title": "iCloud+ Storage",
+    "icon": "book.fill",
+    "category": "Education",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Apple"],
+    "defaultPrice": 2.99,
+    "defaultSupplier": "Apple",
+    "managementURL": "https://support.apple.com/en-gb/HT202039"
+  },
+  {
+    "title": "Digital Newspaper Subscription",
+    "icon": "book.fill",
+    "category": "Education",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["The Times", "The Guardian", "Financial Times", "The Telegraph"],
+    "defaultPrice": 15.00,
+    "defaultSupplier": "The Times",
+    "managementURL": "https://my.thetimes.co.uk/account/"
+  }
+]

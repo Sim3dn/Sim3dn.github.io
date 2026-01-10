@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Gym Membership (Budget)",
+    "icon": "figure.run",
+    "category": "Fitness",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["PureGym", "The Gym Group", "JD Gyms"],
+    "defaultPrice": 22.99,
+    "defaultSupplier": "PureGym",
+    "managementURL": "https://www.puregym.com/members/login"
+  },
+  {
+    "title": "Digital Fitness Subscription",
+    "icon": "figure.run",
+    "category": "Fitness",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Fiit", "Peloton App", "Apple Fitness+", "Strava Premium"],
+    "defaultPrice": 12.99,
+    "defaultSupplier": "Apple Fitness+",
+    "managementURL": "https://support.apple.com/en-gb/HT202039"
+  },
+  {
+    "title": "Private Health Insurance",
+    "icon": "heart.fill",
+    "category": "Health",
+    "suggestedIntervalMonths": 12,
+    "commonSuppliers": ["BUPA", "AXA Health", "Vitality", "WPA"],
+    "defaultPrice": 80.00,
+    "defaultSupplier": "BUPA",
+    "managementURL": "https://www.bupa.co.uk/mybupa"
+  },
+  {
+    "title": "Dental Plan",
+    "icon": "heart.fill",
+    "category": "Health",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Denplan", "Simplyhealth", "Private Dentist Plan"],
+    "defaultPrice": 15.00,
+    "defaultSupplier": "Denplan",
+    "managementURL": "https://www.denplan.co.uk/patient-login"
+  }
+]

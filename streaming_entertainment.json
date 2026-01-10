@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Netflix Premium",
+    "icon": "play.tv.fill",
+    "category": "Entertainment",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Netflix"],
+    "defaultPrice": 17.99,
+    "defaultSupplier": "Netflix",
+    "managementURL": "https://www.netflix.com/youraccount"
+  },
+  {
+    "title": "Disney+ Premium",
+    "icon": "film.fill",
+    "category": "Entertainment",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Disney"],
+    "defaultPrice": 10.99,
+    "defaultSupplier": "Disney",
+    "managementURL": "https://www.disneyplus.com/account"
+  },
+  {
+    "title": "Amazon Prime Video",
+    "icon": "play.circle.fill",
+    "category": "Entertainment",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Amazon"],
+    "defaultPrice": 5.99,
+    "defaultSupplier": "Amazon",
+    "managementURL": "https://www.amazon.co.uk/gp/primecentral"
+  },
+  {
+    "title": "NOW Entertainment Membership",
+    "icon": "play.tv.fill",
+    "category": "Entertainment",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["NOW"],
+    "defaultPrice": 9.99,
+    "defaultSupplier": "NOW",
+    "managementURL": "https://www.nowtv.com/my-account/passes"
+  },
+  {
+    "title": "YouTube Premium Family",
+    "icon": "music.note",
+    "category": "Entertainment",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Google"],
+    "defaultPrice": 19.99,
+    "defaultSupplier": "Google",
+    "managementURL": "https://www.youtube.com/paid_memberships"
+  }
+]
