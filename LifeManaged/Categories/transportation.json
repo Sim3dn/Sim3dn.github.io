@@ -1,0 +1,11 @@
+{
+  "category": "Transportation & Mobility",
+  "options": [
+    { "name": "Uber One", "type": "Ride/Delivery", "frequency": "Monthly/Annual" },
+    { "name": "Lyft Pink", "type": "Ride Sharing", "frequency": "Monthly/Annual" },
+    { "name": "AAA / RAC", "type": "Roadside Assistance", "frequency": "Annual" },
+    { "name": "Tesla Premium Connectivity", "type": "Vehicle Software", "frequency": "Monthly" },
+    { "name": "National Railcard", "type": "Train Travel", "frequency": "Annual" },
+    { "name": "Lime Pass", "type": "Scooter/E-bike", "frequency": "Monthly" }
+  ]
+}
