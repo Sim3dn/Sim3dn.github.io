@@ -1,0 +1,35 @@
+{
+  "store": "Asda",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "priceSource": "Estimated Asda prices",
+  "categories": [
+    {
+      "id": "fruit_veg",
+      "name": "Fruit & Vegetables",
+      "items": [
+        { "id": "bananas", "name": "Bananas (1kg)", "price": 1.00 },
+        { "id": "apples", "name": "Apples (6 pack)", "price": 1.65 },
+        { "id": "carrots", "name": "Carrots (1kg)", "price": 0.60 },
+        { "id": "potatoes", "name": "Potatoes (2.5kg)", "price": 2.25 }
+      ]
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy & Eggs",
+      "items": [
+        { "id": "milk", "name": "Semi-Skimmed Milk (2L)", "price": 1.45 },
+        { "id": "eggs", "name": "Free Range Eggs (12)", "price": 2.90 },
+        { "id": "cheddar", "name": "Cheddar Cheese (400g)", "price": 3.20 }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "Meat & Fish",
+      "items": [
+        { "id": "chicken", "name": "Chicken Breast Fillets", "price": 5.10 },
+        { "id": "beef_mince", "name": "Beef Mince (500g)", "price": 4.50 }
+      ]
+    }
+  ]
+}
