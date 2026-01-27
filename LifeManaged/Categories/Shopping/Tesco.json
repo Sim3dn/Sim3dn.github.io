@@ -1,0 +1,53 @@
+{
+  "store": "Tesco",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "priceSource": "Estimated average UK prices",
+  "categories": [
+    {
+      "id": "fruit_veg",
+      "name": "Fruit & Vegetables",
+      "items": [
+        { "id": "bananas", "name": "Bananas (1kg)", "price": 1.10 },
+        { "id": "apples", "name": "Apples (6 pack)", "price": 1.80 },
+        { "id": "carrots", "name": "Carrots (1kg)", "price": 0.65 },
+        { "id": "potatoes", "name": "Potatoes (2.5kg)", "price": 2.40 }
+      ]
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy & Eggs",
+      "items": [
+        { "id": "milk", "name": "Semi-Skimmed Milk (2L)", "price": 1.55 },
+        { "id": "eggs", "name": "Free Range Eggs (12)", "price": 3.20 },
+        { "id": "cheddar", "name": "Cheddar Cheese (400g)", "price": 3.50 },
+        { "id": "butter", "name": "Butter (250g)", "price": 2.10 }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name": "Bakery",
+      "items": [
+        { "id": "bread_white", "name": "White Bread Loaf", "price": 0.95 },
+        { "id": "bread_brown", "name": "Wholemeal Bread Loaf", "price": 1.10 }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "Meat & Fish",
+      "items": [
+        { "id": "chicken", "name": "Chicken Breast Fillets (600g)", "price": 5.50 },
+        { "id": "beef_mince", "name": "Beef Mince (500g)", "price": 4.75 },
+        { "id": "salmon", "name": "Salmon Fillets (2)", "price": 5.90 }
+      ]
+    },
+    {
+      "id": "household",
+      "name": "Household",
+      "items": [
+        { "id": "toilet_roll", "name": "Toilet Roll (9)", "price": 5.50 },
+        { "id": "washing_liquid", "name": "Laundry Liquid", "price": 6.00 }
+      ]
+    }
+  ]
+}
