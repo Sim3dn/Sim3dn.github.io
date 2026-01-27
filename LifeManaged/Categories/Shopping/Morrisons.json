@@ -1,0 +1,32 @@
+{
+  "store": "Morrisons",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "priceSource": "Estimated Morrisons prices",
+  "categories": [
+    {
+      "id": "fruit_veg",
+      "name": "Fruit & Vegetables",
+      "items": [
+        { "id": "bananas", "name": "Bananas (1kg)", "price": 1.05 },
+        { "id": "apples", "name": "Apples (6 pack)", "price": 1.75 }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "Meat & Fish",
+      "items": [
+        { "id": "chicken", "name": "Chicken Breast Fillets", "price": 5.30 },
+        { "id": "beef_mince", "name": "Beef Mince (500g)", "price": 4.65 }
+      ]
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy & Eggs",
+      "items": [
+        { "id": "milk", "name": "Semi-Skimmed Milk (2L)", "price": 1.50 },
+        { "id": "eggs", "name": "Free Range Eggs (12)", "price": 3.10 }
+      ]
+    }
+  ]
+}
