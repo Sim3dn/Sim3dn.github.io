@@ -1,0 +1,19 @@
+{
+  "store": "Lidl",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "priceSource": "Estimated Lidl prices",
+  "categories": [
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "items": [
+        { "id": "milk", "name": "Milk (2L)", "price": 1.29 },
+        { "id": "bread_white", "name": "White Bread Loaf", "price": 0.79 },
+        { "id": "eggs", "name": "Free Range Eggs (12)", "price": 2.50 },
+        { "id": "bananas", "name": "Bananas (1kg)", "price": 0.98 },
+        { "id": "butter", "name": "Butter (250g)", "price": 1.85 }
+      ]
+    }
+  ]
+}
