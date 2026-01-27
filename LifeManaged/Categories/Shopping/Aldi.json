@@ -1,0 +1,19 @@
+{
+  "store": "Aldi",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "priceSource": "Estimated Aldi prices",
+  "categories": [
+    {
+      "id": "essentials",
+      "name": "Everyday Essentials",
+      "items": [
+        { "id": "milk", "name": "Milk (2L)", "price": 1.25 },
+        { "id": "bread_white", "name": "White Bread Loaf", "price": 0.75 },
+        { "id": "eggs", "name": "Free Range Eggs (12)", "price": 2.45 },
+        { "id": "bananas", "name": "Bananas (1kg)", "price": 0.95 },
+        { "id": "chicken", "name": "Chicken Breast Fillets", "price": 4.65 }
+      ]
+    }
+  ]
+}
