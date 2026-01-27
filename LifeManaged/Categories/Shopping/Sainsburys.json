@@ -1,0 +1,33 @@
+{
+  "store": "Sainsbury’s",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "priceSource": "Estimated Sainsbury’s prices",
+  "categories": [
+    {
+      "id": "fruit_veg",
+      "name": "Fruit & Vegetables",
+      "items": [
+        { "id": "bananas", "name": "Bananas (1kg)", "price": 1.15 },
+        { "id": "apples", "name": "Apples (6 pack)", "price": 1.95 }
+      ]
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy & Eggs",
+      "items": [
+        { "id": "milk", "name": "Semi-Skimmed Milk (2L)", "price": 1.65 },
+        { "id": "eggs", "name": "Free Range Eggs (12)", "price": 3.40 },
+        { "id": "cheddar", "name": "Cheddar Cheese (400g)", "price": 3.80 }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "Meat & Fish",
+      "items": [
+        { "id": "chicken", "name": "Chicken Breast Fillets", "price": 6.00 },
+        { "id": "salmon", "name": "Salmon Fillets (2)", "price": 6.40 }
+      ]
+    }
+  ]
+}
