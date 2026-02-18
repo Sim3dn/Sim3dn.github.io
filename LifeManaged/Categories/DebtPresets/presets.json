@@ -1,0 +1,95 @@
+[
+  {
+    "id": "creditCard",
+    "name": "Credit Card",
+    "icon": "creditcard",
+    "topVariants": [
+      { "title": "Standard Credit Card", "totalOwed": "5000", "interestRate": "18.0", "monthlyPayment": "100.00" },
+      { "title": "Rewards Credit Card", "totalOwed": "3000", "interestRate": "20.0", "monthlyPayment": "75.00" },
+      { "title": "Balance Transfer Card", "totalOwed": "10000", "interestRate": "0.0", "monthlyPayment": "150.00" },
+      { "title": "Low APR Card", "totalOwed": "4000", "interestRate": "12.9", "monthlyPayment": "95.00" },
+      { "title": "Cash Back Card", "totalOwed": "2500", "interestRate": "17.9", "monthlyPayment": "60.00" }
+    ]
+  },
+  {
+    "id": "personalLoan",
+    "name": "Personal Loan",
+    "icon": "person.2.circle",
+    "topVariants": [
+      { "title": "Standard Personal Loan", "totalOwed": "10000", "interestRate": "8.5", "monthlyPayment": "250.00" },
+      { "title": "Unsecured Personal Loan", "totalOwed": "15000", "interestRate": "12.0", "monthlyPayment": "300.00" },
+      { "title": "Secured Personal Loan", "totalOwed": "20000", "interestRate": "6.0", "monthlyPayment": "350.00" }
+    ]
+  },
+  {
+    "id": "autoLoan",
+    "name": "Auto Loan",
+    "icon": "car.fill",
+    "topVariants": [
+      { "title": "New Car Loan", "totalOwed": "25000", "interestRate": "5.5", "monthlyPayment": "450.00" },
+      { "title": "Used Car Loan", "totalOwed": "15000", "interestRate": "7.5", "monthlyPayment": "300.00" },
+      { "title": "Car Lease", "totalOwed": "12000", "interestRate": "4.0", "monthlyPayment": "280.00" }
+    ]
+  },
+  {
+    "id": "studentLoan",
+    "name": "Student Loan",
+    "icon": "graduationcap.fill",
+    "topVariants": [
+      { "title": "Federal Student Loan", "totalOwed": "30000", "interestRate": "4.5", "monthlyPayment": "200.00" },
+      { "title": "Private Student Loan", "totalOwed": "50000", "interestRate": "7.0", "monthlyPayment": "350.00" }
+    ]
+  },
+  {
+    "id": "mortgage",
+    "name": "Mortgage",
+    "icon": "house.fill",
+    "topVariants": [
+      { "title": "Fixed Mortgage", "totalOwed": "300000", "interestRate": "4.0", "monthlyPayment": "1400.00" },
+      { "title": "Variable Mortgage", "totalOwed": "280000", "interestRate": "3.5", "monthlyPayment": "1300.00" },
+      { "title": "Home Equity Loan", "totalOwed": "50000", "interestRate": "6.5", "monthlyPayment": "300.00" },
+      { "title": "HELOC", "totalOwed": "75000", "interestRate": "7.0", "monthlyPayment": "350.00" }
+    ]
+  },
+  {
+    "id": "paydayLoan",
+    "name": "Payday Loan",
+    "icon": "calendar.badge.clock",
+    "topVariants": [
+      { "title": "$300 2-Week Payday Loan", "totalOwed": "300", "interestRate": "400.0", "monthlyPayment": "650.00" }
+    ]
+  },
+  {
+    "id": "medicalBill",
+    "name": "Medical Bill",
+    "icon": "cross.fill",
+    "topVariants": [
+      { "title": "Hospital Bill", "totalOwed": "5000", "interestRate": "0.0", "monthlyPayment": "200.00" }
+    ]
+  },
+  {
+    "id": "taxDebt",
+    "name": "Tax Debt",
+    "icon": "banknote.fill",
+    "topVariants": [
+      { "title": "IRS Payment Plan", "totalOwed": "12000", "interestRate": "3.0", "monthlyPayment": "350.00" }
+    ]
+  },
+  {
+    "id": "securedLoan",
+    "name": "Secured Loan",
+    "icon": "lock.shield.fill",
+    "topVariants": [
+      { "title": "Pawn Shop Loan", "totalOwed": "200", "interestRate": "120.0", "monthlyPayment": "240.00" },
+      { "title": "Car Title Loan", "totalOwed": "2500", "interestRate": "100.0", "monthlyPayment": "600.00" }
+    ]
+  },
+  {
+    "id": "homeImprovement",
+    "name": "Home Improvement Loan",
+    "icon": "hammer.fill",
+    "topVariants": [
+      { "title": "Roof Replacement Loan", "totalOwed": "15000", "interestRate": "7.0", "monthlyPayment": "350.00" }
+    ]
+  }
+]
