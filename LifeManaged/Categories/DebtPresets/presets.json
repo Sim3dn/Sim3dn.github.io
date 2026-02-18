@@ -4,92 +4,99 @@
     "name": "Credit Card",
     "icon": "creditcard",
     "topVariants": [
-      { "title": "Standard Credit Card", "totalOwed": "5000", "interestRate": "18.0", "monthlyPayment": "100.00" },
-      { "title": "Rewards Credit Card", "totalOwed": "3000", "interestRate": "20.0", "monthlyPayment": "75.00" },
-      { "title": "Balance Transfer Card", "totalOwed": "10000", "interestRate": "0.0", "monthlyPayment": "150.00" },
-      { "title": "Low APR Card", "totalOwed": "4000", "interestRate": "12.9", "monthlyPayment": "95.00" },
-      { "title": "Cash Back Card", "totalOwed": "2500", "interestRate": "17.9", "monthlyPayment": "60.00" }
-    ]
+      { "title": "Standard Credit Card", "totalOwed": "5000", "interestRate": "18.0", "monthlyPayment": "100.00", "region": "US" },
+      { "title": "Balance Transfer (0% Offer)", "totalOwed": "10000", "interestRate": "0.0", "monthlyPayment": "150.00", "region": "UK" },
+      { "title": "Purchase Card", "totalOwed": "3000", "interestRate": "21.9", "monthlyPayment": "75.00", "region": "UK" },
+      { "title": "Store Card", "totalOwed": "800", "interestRate": "29.9", "monthlyPayment": "40.00", "region": "UK" },
+      { "title": "Cash Back Card", "totalOwed": "2500", "interestRate": "17.9", "monthlyPayment": "60.00", "region": "US" }
+    ],
+    "usesManualPaymentByDefault": true
   },
   {
     "id": "personalLoan",
     "name": "Personal Loan",
     "icon": "person.2.circle",
     "topVariants": [
-      { "title": "Standard Personal Loan", "totalOwed": "10000", "interestRate": "8.5", "monthlyPayment": "250.00" },
-      { "title": "Unsecured Personal Loan", "totalOwed": "15000", "interestRate": "12.0", "monthlyPayment": "300.00" },
-      { "title": "Secured Personal Loan", "totalOwed": "20000", "interestRate": "6.0", "monthlyPayment": "350.00" }
-    ]
+      { "title": "Unsecured Loan", "totalOwed": "10000", "interestRate": "6.5", "monthlyPayment": "220.00", "region": "UK" },
+      { "title": "Debt Consolidation Loan", "totalOwed": "15000", "interestRate": "11.0", "monthlyPayment": "350.00", "region": "US" },
+      { "title": "Sofa/Furniture Finance", "totalOwed": "2000", "interestRate": "0.0", "monthlyPayment": "50.00", "region": "UK" }
+    ],
+    "usesManualPaymentByDefault": false
   },
   {
     "id": "autoLoan",
-    "name": "Auto Loan",
+    "name": "Auto Finance",
     "icon": "car.fill",
     "topVariants": [
-      { "title": "New Car Loan", "totalOwed": "25000", "interestRate": "5.5", "monthlyPayment": "450.00" },
-      { "title": "Used Car Loan", "totalOwed": "15000", "interestRate": "7.5", "monthlyPayment": "300.00" },
-      { "title": "Car Lease", "totalOwed": "12000", "interestRate": "4.0", "monthlyPayment": "280.00" }
-    ]
+      { "title": "PCP (Personal Contract Purchase)", "totalOwed": "18000", "interestRate": "7.9", "monthlyPayment": "299.00", "region": "UK" },
+      { "title": "HP (Hire Purchase)", "totalOwed": "12000", "interestRate": "9.9", "monthlyPayment": "250.00", "region": "UK" },
+      { "title": "Auto Loan (New)", "totalOwed": "35000", "interestRate": "5.5", "monthlyPayment": "550.00", "region": "US" },
+      { "title": "Car Lease", "totalOwed": "10000", "interestRate": "4.0", "monthlyPayment": "320.00", "region": "US" }
+    ],
+    "usesManualPaymentByDefault": false
   },
   {
     "id": "studentLoan",
     "name": "Student Loan",
     "icon": "graduationcap.fill",
     "topVariants": [
-      { "title": "Federal Student Loan", "totalOwed": "30000", "interestRate": "4.5", "monthlyPayment": "200.00" },
-      { "title": "Private Student Loan", "totalOwed": "50000", "interestRate": "7.0", "monthlyPayment": "350.00" }
-    ]
+      { "title": "Plan 2 (UK)", "totalOwed": "45000", "interestRate": "7.3", "monthlyPayment": "120.00", "region": "UK" },
+      { "title": "Plan 5 (UK)", "totalOwed": "27000", "interestRate": "4.3", "monthlyPayment": "90.00", "region": "UK" },
+      { "title": "Federal Subsidized", "totalOwed": "25000", "interestRate": "5.5", "monthlyPayment": "260.00", "region": "US" },
+      { "title": "Private Student Loan", "totalOwed": "50000", "interestRate": "9.0", "monthlyPayment": "450.00", "region": "US" }
+    ],
+    "usesManualPaymentByDefault": false
   },
   {
     "id": "mortgage",
     "name": "Mortgage",
     "icon": "house.fill",
     "topVariants": [
-      { "title": "Fixed Mortgage", "totalOwed": "300000", "interestRate": "4.0", "monthlyPayment": "1400.00" },
-      { "title": "Variable Mortgage", "totalOwed": "280000", "interestRate": "3.5", "monthlyPayment": "1300.00" },
-      { "title": "Home Equity Loan", "totalOwed": "50000", "interestRate": "6.5", "monthlyPayment": "300.00" },
-      { "title": "HELOC", "totalOwed": "75000", "interestRate": "7.0", "monthlyPayment": "350.00" }
-    ]
+      { "title": "2-Year Fixed", "totalOwed": "250000", "interestRate": "4.8", "monthlyPayment": "1300.00", "region": "UK" },
+      { "title": "Standard Variable Rate (SVR)", "totalOwed": "220000", "interestRate": "7.5", "monthlyPayment": "1600.00", "region": "UK" },
+      { "title": "30-Year Fixed", "totalOwed": "400000", "interestRate": "6.5", "monthlyPayment": "2528.00", "region": "US" },
+      { "title": "HELOC", "totalOwed": "40000", "interestRate": "8.0", "monthlyPayment": "300.00", "region": "US" }
+    ],
+    "usesManualPaymentByDefault": false
   },
   {
-    "id": "paydayLoan",
-    "name": "Payday Loan",
-    "icon": "calendar.badge.clock",
+    "id": "overdraft",
+    "name": "Overdraft",
+    "icon": "arrow.down.forward.and.arrow.up.backward",
     "topVariants": [
-      { "title": "$300 2-Week Payday Loan", "totalOwed": "300", "interestRate": "400.0", "monthlyPayment": "650.00" }
-    ]
+      { "title": "Arranged Overdraft", "totalOwed": "500", "interestRate": "39.9", "monthlyPayment": "20.00", "region": "UK" },
+      { "title": "Unarranged Overdraft", "totalOwed": "200", "interestRate": "45.0", "monthlyPayment": "50.00", "region": "UK" }
+    ],
+    "usesManualPaymentByDefault": true
   },
   {
     "id": "medicalBill",
-    "name": "Medical Bill",
+    "name": "Medical Debt",
     "icon": "cross.fill",
     "topVariants": [
-      { "title": "Hospital Bill", "totalOwed": "5000", "interestRate": "0.0", "monthlyPayment": "200.00" }
-    ]
+      { "title": "Hospital Bill (Uninsured)", "totalOwed": "8000", "interestRate": "0.0", "monthlyPayment": "250.00", "region": "US" },
+      { "title": "Dental Financing", "totalOwed": "1500", "interestRate": "9.9", "monthlyPayment": "75.00", "region": "UK" }
+    ],
+    "usesManualPaymentByDefault": true
   },
   {
     "id": "taxDebt",
     "name": "Tax Debt",
     "icon": "banknote.fill",
     "topVariants": [
-      { "title": "IRS Payment Plan", "totalOwed": "12000", "interestRate": "3.0", "monthlyPayment": "350.00" }
-    ]
+      { "title": "HMRC Time to Pay", "totalOwed": "3500", "interestRate": "7.75", "monthlyPayment": "300.00", "region": "UK" },
+      { "title": "IRS Installment Agreement", "totalOwed": "12000", "interestRate": "8.0", "monthlyPayment": "350.00", "region": "US" }
+    ],
+    "usesManualPaymentByDefault": true
   },
   {
-    "id": "securedLoan",
-    "name": "Secured Loan",
-    "icon": "lock.shield.fill",
+    "id": "bnpl",
+    "name": "Buy Now Pay Later",
+    "icon": "cart.fill",
     "topVariants": [
-      { "title": "Pawn Shop Loan", "totalOwed": "200", "interestRate": "120.0", "monthlyPayment": "240.00" },
-      { "title": "Car Title Loan", "totalOwed": "2500", "interestRate": "100.0", "monthlyPayment": "600.00" }
-    ]
-  },
-  {
-    "id": "homeImprovement",
-    "name": "Home Improvement Loan",
-    "icon": "hammer.fill",
-    "topVariants": [
-      { "title": "Roof Replacement Loan", "totalOwed": "15000", "interestRate": "7.0", "monthlyPayment": "350.00" }
-    ]
+      { "title": "Klarna / Clearpay Pay in 3", "totalOwed": "150", "interestRate": "0.0", "monthlyPayment": "50.00", "region": "UK" },
+      { "title": "Affirm Installments", "totalOwed": "1200", "interestRate": "15.0", "monthlyPayment": "110.00", "region": "US" }
+    ],
+    "usesManualPaymentByDefault": false
   }
 ]
