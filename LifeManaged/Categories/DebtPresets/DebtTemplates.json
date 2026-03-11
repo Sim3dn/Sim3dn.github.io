@@ -1,0 +1,92 @@
+{
+  "presets": [
+    {
+      "id": "Credit Card",
+      "icon": "creditcard",
+      "subtypes": [
+        {
+          "id": "Standard CC",
+          "icon": "creditcard",
+          "defaults": {
+            "title": "Standard Credit Card",
+            "totalOwed": "5000",
+            "interestRate": "18.0",
+            "monthlyPayment": "100.00"
+          }
+        },
+        {
+          "id": "Rewards CC",
+          "icon": "creditcard",
+          "defaults": {
+            "title": "Rewards Card",
+            "totalOwed": "3000",
+            "interestRate": "20.0",
+            "monthlyPayment": "75.00"
+          }
+        },
+        {
+          "id": "Balance Transfer",
+          "icon": "creditcard",
+          "defaults": {
+            "title": "Balance Transfer",
+            "totalOwed": "10000",
+            "interestRate": "0.0",
+            "monthlyPayment": "150.00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Personal Loan",
+      "icon": "person.2.circle",
+      "subtypes": [
+        {
+          "id": "Personal Loan",
+          "icon": "person.2.circle",
+          "defaults": {
+            "title": "Personal Loan",
+            "totalOwed": "10000",
+            "interestRate": "8.5",
+            "monthlyPayment": "250.00"
+          }
+        },
+        {
+          "id": "Unsecured Personal Loan",
+          "icon": "person.2.circle",
+          "defaults": {
+            "title": "Unsecured Loan",
+            "totalOwed": "15000",
+            "interestRate": "12.0",
+            "monthlyPayment": "300.00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Auto Loan",
+      "icon": "car.fill",
+      "subtypes": [
+        {
+          "id": "New Car Loan",
+          "icon": "car.fill",
+          "defaults": {
+            "title": "New Car Loan",
+            "totalOwed": "25000",
+            "interestRate": "5.5",
+            "monthlyPayment": "450.00"
+          }
+        },
+        {
+          "id": "Used Car Loan",
+          "icon": "car.fill",
+          "defaults": {
+            "title": "Used Car Loan",
+            "totalOwed": "15000",
+            "interestRate": "7.5",
+            "monthlyPayment": "300.00"
+          }
+        }
+      ]
+    }
+  ]
+}
