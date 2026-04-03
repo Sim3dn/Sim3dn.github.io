@@ -87,6 +87,42 @@
           }
         }
       ]
+    },
+    {
+      "id": "Home Improvement Loan",
+      "icon": "hammer.fill",
+      "subtypes": [
+        {
+          "id": "Home Improvement Loan",
+          "icon": "hammer.fill",
+          "defaults": {
+            "title": "Home Improvement Loan",
+            "totalOwed": "12000",
+            "interestRate": "6.9",
+            "monthlyPayment": "220.00"
+          }
+        },
+        {
+          "id": "Kitchen Remodel",
+          "icon": "hammer.fill",
+          "defaults": {
+            "title": "Kitchen Remodel",
+            "totalOwed": "18000",
+            "interestRate": "7.4",
+            "monthlyPayment": "340.00"
+          }
+        },
+        {
+          "id": "Bathroom Upgrade",
+          "icon": "hammer.fill",
+          "defaults": {
+            "title": "Bathroom Upgrade",
+            "totalOwed": "9000",
+            "interestRate": "7.9",
+            "monthlyPayment": "180.00"
+          }
+        }
+      ]
     }
   ]
 }
