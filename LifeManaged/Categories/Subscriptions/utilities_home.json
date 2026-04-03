@@ -7,7 +7,19 @@
     "commonSuppliers": ["British Gas", "E.ON Next", "OVO Energy", "Scottish Power"],
     "defaultPrice": 130.00,
     "defaultSupplier": "E.ON Next",
-    "managementURL": "https://login.eonnext.com/sign-in"
+    "managementURL": "https://login.eonnext.com/sign-in",
+    "supplierPrices": {
+      "British Gas": 135.00,
+      "E.ON Next": 130.00,
+      "OVO Energy": 128.00,
+      "Scottish Power": 132.00
+    },
+    "supplierURLs": {
+      "British Gas": "https://www.britishgas.co.uk/login",
+      "E.ON Next": "https://login.eonnext.com/sign-in",
+      "OVO Energy": "https://account.ovoenergy.com/",
+      "Scottish Power": "https://www.scottishpower.co.uk/login"
+    }
   },
   {
     "title": "Water Bill",
@@ -17,7 +29,19 @@
     "commonSuppliers": ["Thames Water", "Severn Trent", "United Utilities", "Yorkshire Water"],
     "defaultPrice": 35.00,
     "defaultSupplier": "Thames Water",
-    "managementURL": "https://my.thameswater.co.uk/myaccount/login"
+    "managementURL": "https://my.thameswater.co.uk/myaccount/login",
+    "supplierPrices": {
+      "Thames Water": 35.00,
+      "Severn Trent": 33.00,
+      "United Utilities": 34.00,
+      "Yorkshire Water": 32.00
+    },
+    "supplierURLs": {
+      "Thames Water": "https://my.thameswater.co.uk/myaccount/login",
+      "Severn Trent": "https://my.stwater.co.uk/",
+      "United Utilities": "https://myaccount.unitedutilities.com/",
+      "Yorkshire Water": "https://myaccount.yorkshirewater.com/"
+    }
   },
   {
     "title": "Council Tax",
@@ -27,7 +51,13 @@
     "commonSuppliers": ["Local Council"],
     "defaultPrice": 150.00,
     "defaultSupplier": "Council Name (User input)",
-    "managementURL": "https://www.gov.uk/find-local-council"
+    "managementURL": "https://www.gov.uk/find-local-council",
+    "supplierPrices": {
+      "Local Council": 150.00
+    },
+    "supplierURLs": {
+      "Local Council": "https://www.gov.uk/find-local-council"
+    }
   },
   {
     "title": "Home Security Monitoring",
@@ -37,6 +67,18 @@
     "commonSuppliers": ["Ring Protect", "Verisure", "ADT", "Simplisafe"],
     "defaultPrice": 10.00,
     "defaultSupplier": "Ring Protect",
-    "managementURL": "https://ring.com/account/dashboard"
+    "managementURL": "https://ring.com/account/dashboard",
+    "supplierPrices": {
+      "Ring Protect": 10.00,
+      "Verisure": 25.00,
+      "ADT": 22.00,
+      "Simplisafe": 14.99
+    },
+    "supplierURLs": {
+      "Ring Protect": "https://ring.com/account/dashboard",
+      "Verisure": "https://www.verisure.co.uk/customer-login",
+      "ADT": "https://www.adt.co.uk/customer-login",
+      "Simplisafe": "https://webapp.simplisafe.com/"
+    }
   }
 ]

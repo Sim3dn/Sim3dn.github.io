@@ -7,7 +7,17 @@
     "commonSuppliers": ["PureGym", "The Gym Group", "JD Gyms"],
     "defaultPrice": 22.99,
     "defaultSupplier": "PureGym",
-    "managementURL": "https://www.puregym.com/members/login"
+    "managementURL": "https://www.puregym.com/members/login",
+    "supplierPrices": {
+      "PureGym": 22.99,
+      "The Gym Group": 21.99,
+      "JD Gyms": 24.99
+    },
+    "supplierURLs": {
+      "PureGym": "https://www.puregym.com/members/login",
+      "The Gym Group": "https://www.thegymgroup.com/login/",
+      "JD Gyms": "https://www.jdgyms.co.uk/member-area/"
+    }
   },
   {
     "title": "Digital Fitness Subscription",
@@ -17,7 +27,19 @@
     "commonSuppliers": ["Fiit", "Peloton App", "Apple Fitness+", "Strava Premium"],
     "defaultPrice": 12.99,
     "defaultSupplier": "Apple Fitness+",
-    "managementURL": "https://support.apple.com/en-gb/HT202039"
+    "managementURL": "https://support.apple.com/en-gb/HT202039",
+    "supplierPrices": {
+      "Fiit": 10.00,
+      "Peloton App": 12.99,
+      "Apple Fitness+": 9.99,
+      "Strava Premium": 8.99
+    },
+    "supplierURLs": {
+      "Fiit": "https://fiit.tv/",
+      "Peloton App": "https://www.onepeloton.co.uk/app",
+      "Apple Fitness+": "https://support.apple.com/en-gb/HT202039",
+      "Strava Premium": "https://www.strava.com/subscription"
+    }
   },
   {
     "title": "Private Health Insurance",
@@ -27,7 +49,19 @@
     "commonSuppliers": ["BUPA", "AXA Health", "Vitality", "WPA"],
     "defaultPrice": 80.00,
     "defaultSupplier": "BUPA",
-    "managementURL": "https://www.bupa.co.uk/mybupa"
+    "managementURL": "https://www.bupa.co.uk/mybupa",
+    "supplierPrices": {
+      "BUPA": 80.00,
+      "AXA Health": 76.00,
+      "Vitality": 84.00,
+      "WPA": 72.00
+    },
+    "supplierURLs": {
+      "BUPA": "https://www.bupa.co.uk/mybupa",
+      "AXA Health": "https://www.axahealth.co.uk/members-area/",
+      "Vitality": "https://www.vitality.co.uk/member-zone/",
+      "WPA": "https://www.wpa.org.uk/member-login"
+    }
   },
   {
     "title": "Dental Plan",
@@ -37,6 +71,16 @@
     "commonSuppliers": ["Denplan", "Simplyhealth", "Private Dentist Plan"],
     "defaultPrice": 15.00,
     "defaultSupplier": "Denplan",
-    "managementURL": "https://www.denplan.co.uk/patient-login"
+    "managementURL": "https://www.denplan.co.uk/patient-login",
+    "supplierPrices": {
+      "Denplan": 15.00,
+      "Simplyhealth": 13.50,
+      "Private Dentist Plan": 18.00
+    },
+    "supplierURLs": {
+      "Denplan": "https://www.denplan.co.uk/patient-login",
+      "Simplyhealth": "https://www.simplyhealth.co.uk/login/",
+      "Private Dentist Plan": "https://www.google.com/search?q=private+dentist+plan+login"
+    }
   }
 ]

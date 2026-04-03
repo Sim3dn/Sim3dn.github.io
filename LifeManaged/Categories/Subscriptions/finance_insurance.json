@@ -7,7 +7,19 @@
     "commonSuppliers": ["Admiral", "Direct Line", "Aviva", "Hastings"],
     "defaultPrice": 60.00,
     "defaultSupplier": "Admiral",
-    "managementURL": "https://myaccount.admiral.com/login"
+    "managementURL": "https://myaccount.admiral.com/login",
+    "supplierPrices": {
+      "Admiral": 60.00,
+      "Direct Line": 58.00,
+      "Aviva": 64.00,
+      "Hastings": 56.00
+    },
+    "supplierURLs": {
+      "Admiral": "https://myaccount.admiral.com/login",
+      "Direct Line": "https://www.directline.com/login",
+      "Aviva": "https://www.aviva.co.uk/my-aviva/",
+      "Hastings": "https://www.hastingsdirect.com/myaccount/"
+    }
   },
   {
     "title": "Life Insurance Policy",
@@ -17,7 +29,17 @@
     "commonSuppliers": ["Legal & General", "Aviva", "Vitality"],
     "defaultPrice": 25.00,
     "defaultSupplier": "Legal & General",
-    "managementURL": "https://www.legalandgeneral.com/my-account/"
+    "managementURL": "https://www.legalandgeneral.com/my-account/",
+    "supplierPrices": {
+      "Legal & General": 25.00,
+      "Aviva": 24.00,
+      "Vitality": 28.00
+    },
+    "supplierURLs": {
+      "Legal & General": "https://www.legalandgeneral.com/my-account/",
+      "Aviva": "https://www.aviva.co.uk/my-aviva/",
+      "Vitality": "https://www.vitality.co.uk/member-zone/"
+    }
   },
   {
     "title": "Subscription Savings/Investment App",
@@ -27,7 +49,17 @@
     "commonSuppliers": ["Moneybox Plus", "Plum Pro", "Hargreaves Lansdown"],
     "defaultPrice": 2.00,
     "defaultSupplier": "Moneybox",
-    "managementURL": "https://www.moneyboxapp.com/login"
+    "managementURL": "https://www.moneyboxapp.com/login",
+    "supplierPrices": {
+      "Moneybox Plus": 2.00,
+      "Plum Pro": 2.99,
+      "Hargreaves Lansdown": 4.99
+    },
+    "supplierURLs": {
+      "Moneybox Plus": "https://www.moneyboxapp.com/login",
+      "Plum Pro": "https://withplum.com/login",
+      "Hargreaves Lansdown": "https://online.hl.co.uk/my-accounts/login-step-one"
+    }
   },
   {
     "title": "Will/Legal Service Subscription",
@@ -37,6 +69,14 @@
     "commonSuppliers": ["National Will Archive", "Various Law Firms"],
     "defaultPrice": 60.00,
     "defaultSupplier": "Legal Firm Name (User input)",
-    "managementURL": "https://www.gov.uk/browse/visas-immigration/eu-eea"
+    "managementURL": "https://www.gov.uk/browse/visas-immigration/eu-eea",
+    "supplierPrices": {
+      "National Will Archive": 60.00,
+      "Various Law Firms": 75.00
+    },
+    "supplierURLs": {
+      "National Will Archive": "https://www.nationalwillarchive.com/",
+      "Various Law Firms": "https://www.gov.uk/find-a-legal-adviser"
+    }
   }
 ]

@@ -1,52 +1,92 @@
 [
   {
-    "title": "Netflix Premium",
+    "title": "Netflix",
     "icon": "play.tv.fill",
     "category": "Entertainment",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["Netflix"],
+    "commonSuppliers": ["Standard", "Premium"],
     "defaultPrice": 17.99,
-    "defaultSupplier": "Netflix",
-    "managementURL": "https://www.netflix.com/youraccount"
+    "defaultSupplier": "Premium",
+    "managementURL": "https://www.netflix.com/youraccount",
+    "supplierPrices": {
+      "Standard": 10.99,
+      "Premium": 17.99
+    },
+    "supplierURLs": {
+      "Standard": "https://www.netflix.com/youraccount",
+      "Premium": "https://www.netflix.com/youraccount"
+    }
   },
   {
-    "title": "Disney+ Premium",
+    "title": "Disney+",
     "icon": "film.fill",
     "category": "Entertainment",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["Disney"],
+    "commonSuppliers": ["Standard", "Premium"],
     "defaultPrice": 10.99,
-    "defaultSupplier": "Disney",
-    "managementURL": "https://www.disneyplus.com/account"
+    "defaultSupplier": "Premium",
+    "managementURL": "https://www.disneyplus.com/account",
+    "supplierPrices": {
+      "Standard": 7.99,
+      "Premium": 10.99
+    },
+    "supplierURLs": {
+      "Standard": "https://www.disneyplus.com/account",
+      "Premium": "https://www.disneyplus.com/account"
+    }
   },
   {
-    "title": "Amazon Prime Video",
+    "title": "Prime Video",
     "icon": "play.circle.fill",
     "category": "Entertainment",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["Amazon"],
+    "commonSuppliers": ["Monthly", "With Ads Removed"],
     "defaultPrice": 5.99,
-    "defaultSupplier": "Amazon",
-    "managementURL": "https://www.amazon.co.uk/gp/primecentral"
+    "defaultSupplier": "Monthly",
+    "managementURL": "https://www.amazon.co.uk/gp/primecentral",
+    "supplierPrices": {
+      "Monthly": 5.99,
+      "With Ads Removed": 8.98
+    },
+    "supplierURLs": {
+      "Monthly": "https://www.amazon.co.uk/gp/primecentral",
+      "With Ads Removed": "https://www.amazon.co.uk/gp/video/settings"
+    }
   },
   {
-    "title": "NOW Entertainment Membership",
+    "title": "NOW Entertainment",
     "icon": "play.tv.fill",
     "category": "Entertainment",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["NOW"],
+    "commonSuppliers": ["Entertainment", "Entertainment + Boost"],
     "defaultPrice": 9.99,
-    "defaultSupplier": "NOW",
-    "managementURL": "https://www.nowtv.com/my-account/passes"
+    "defaultSupplier": "Entertainment",
+    "managementURL": "https://www.nowtv.com/my-account/passes",
+    "supplierPrices": {
+      "Entertainment": 9.99,
+      "Entertainment + Boost": 15.99
+    },
+    "supplierURLs": {
+      "Entertainment": "https://www.nowtv.com/my-account/passes",
+      "Entertainment + Boost": "https://www.nowtv.com/my-account/passes"
+    }
   },
   {
-    "title": "YouTube Premium Family",
+    "title": "YouTube Premium",
     "icon": "music.note",
     "category": "Entertainment",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["Google"],
+    "commonSuppliers": ["Individual", "Family"],
     "defaultPrice": 19.99,
-    "defaultSupplier": "Google",
-    "managementURL": "https://www.youtube.com/paid_memberships"
+    "defaultSupplier": "Family",
+    "managementURL": "https://www.youtube.com/paid_memberships",
+    "supplierPrices": {
+      "Individual": 12.99,
+      "Family": 19.99
+    },
+    "supplierURLs": {
+      "Individual": "https://www.youtube.com/paid_memberships",
+      "Family": "https://www.youtube.com/paid_memberships"
+    }
   }
 ]

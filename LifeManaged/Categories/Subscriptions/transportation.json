@@ -1,11 +1,104 @@
-{
-  "category": "Transportation & Mobility",
-  "options": [
-    { "name": "Uber One", "type": "Ride/Delivery", "frequency": "Monthly/Annual" },
-    { "name": "Lyft Pink", "type": "Ride Sharing", "frequency": "Monthly/Annual" },
-    { "name": "AAA / RAC", "type": "Roadside Assistance", "frequency": "Annual" },
-    { "name": "Tesla Premium Connectivity", "type": "Vehicle Software", "frequency": "Monthly" },
-    { "name": "National Railcard", "type": "Train Travel", "frequency": "Annual" },
-    { "name": "Lime Pass", "type": "Scooter/E-bike", "frequency": "Monthly" }
-  ]
-}
+[
+  {
+    "title": "Uber One",
+    "icon": "car.fill",
+    "category": "Transportation",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Monthly", "Annual"],
+    "defaultPrice": 4.99,
+    "defaultSupplier": "Monthly",
+    "managementURL": "https://www.uber.com/gb/en/u/uber-one/",
+    "supplierPrices": {
+      "Monthly": 4.99,
+      "Annual": 49.99
+    },
+    "supplierURLs": {
+      "Monthly": "https://www.uber.com/gb/en/u/uber-one/",
+      "Annual": "https://www.uber.com/gb/en/u/uber-one/"
+    }
+  },
+  {
+    "title": "Lyft Pink",
+    "icon": "car.fill",
+    "category": "Transportation",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Monthly", "Annual"],
+    "defaultPrice": 9.99,
+    "defaultSupplier": "Monthly",
+    "managementURL": "https://www.lyft.com/memberships",
+    "supplierPrices": {
+      "Monthly": 9.99,
+      "Annual": 99.00
+    },
+    "supplierURLs": {
+      "Monthly": "https://www.lyft.com/memberships",
+      "Annual": "https://www.lyft.com/memberships"
+    }
+  },
+  {
+    "title": "Roadside Assistance",
+    "icon": "car.fill",
+    "category": "Transportation",
+    "suggestedIntervalMonths": 12,
+    "commonSuppliers": ["AAA", "RAC"],
+    "defaultPrice": 65.00,
+    "defaultSupplier": "AAA",
+    "managementURL": "https://www.aaa.com/",
+    "supplierPrices": {
+      "AAA": 65.00,
+      "RAC": 69.99
+    },
+    "supplierURLs": {
+      "AAA": "https://www.aaa.com/",
+      "RAC": "https://www.rac.co.uk/login"
+    }
+  },
+  {
+    "title": "Tesla Premium Connectivity",
+    "icon": "car.fill",
+    "category": "Transportation",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Monthly"],
+    "defaultPrice": 9.99,
+    "defaultSupplier": "Monthly",
+    "managementURL": "https://www.tesla.com/support/connectivity",
+    "supplierPrices": {
+      "Monthly": 9.99
+    },
+    "supplierURLs": {
+      "Monthly": "https://www.tesla.com/support/connectivity"
+    }
+  },
+  {
+    "title": "National Railcard",
+    "icon": "car.fill",
+    "category": "Transportation",
+    "suggestedIntervalMonths": 12,
+    "commonSuppliers": ["Annual"],
+    "defaultPrice": 30.00,
+    "defaultSupplier": "Annual",
+    "managementURL": "https://www.railcard.co.uk/",
+    "supplierPrices": {
+      "Annual": 30.00
+    },
+    "supplierURLs": {
+      "Annual": "https://www.railcard.co.uk/"
+    }
+  },
+  {
+    "title": "Lime Pass",
+    "icon": "car.fill",
+    "category": "Transportation",
+    "suggestedIntervalMonths": 1,
+    "commonSuppliers": ["Monthly"],
+    "defaultPrice": 8.99,
+    "defaultSupplier": "Monthly",
+    "managementURL": "https://www.li.me/",
+    "supplierPrices": {
+      "Monthly": 8.99
+    },
+    "supplierURLs": {
+      "Monthly": "https://www.li.me/"
+    }
+  }
+]

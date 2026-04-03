@@ -4,30 +4,56 @@
     "icon": "building.2.fill",
     "category": "Work",
     "suggestedIntervalMonths": 12,
-    "commonSuppliers": ["Microsoft"],
+    "commonSuppliers": ["Personal", "Family"],
     "defaultPrice": 79.99,
-    "defaultSupplier": "Microsoft",
-    "managementURL": "https://account.microsoft.com/services"
+    "defaultSupplier": "Family",
+    "managementURL": "https://account.microsoft.com/services",
+    "supplierPrices": {
+      "Personal": 59.99,
+      "Family": 79.99
+    },
+    "supplierURLs": {
+      "Personal": "https://account.microsoft.com/services",
+      "Family": "https://account.microsoft.com/services"
+    }
   },
   {
     "title": "LinkedIn Premium Career",
     "icon": "building.2.fill",
     "category": "Work",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["LinkedIn"],
+    "commonSuppliers": ["Career", "Business"],
     "defaultPrice": 29.99,
-    "defaultSupplier": "LinkedIn",
-    "managementURL": "https://www.linkedin.com/premium/subscription/details"
+    "defaultSupplier": "Career",
+    "managementURL": "https://www.linkedin.com/premium/subscription/details",
+    "supplierPrices": {
+      "Career": 29.99,
+      "Business": 49.99
+    },
+    "supplierURLs": {
+      "Career": "https://www.linkedin.com/premium/subscription/details",
+      "Business": "https://www.linkedin.com/premium/subscription/details"
+    }
   },
   {
     "title": "iCloud+ Storage",
     "icon": "book.fill",
     "category": "Education",
     "suggestedIntervalMonths": 1,
-    "commonSuppliers": ["Apple"],
+    "commonSuppliers": ["50GB", "200GB", "2TB"],
     "defaultPrice": 2.99,
-    "defaultSupplier": "Apple",
-    "managementURL": "https://support.apple.com/en-gb/HT202039"
+    "defaultSupplier": "200GB",
+    "managementURL": "https://support.apple.com/en-gb/HT202039",
+    "supplierPrices": {
+      "50GB": 0.99,
+      "200GB": 2.99,
+      "2TB": 8.99
+    },
+    "supplierURLs": {
+      "50GB": "https://support.apple.com/en-gb/HT202039",
+      "200GB": "https://support.apple.com/en-gb/HT202039",
+      "2TB": "https://support.apple.com/en-gb/HT202039"
+    }
   },
   {
     "title": "Digital Newspaper Subscription",
@@ -37,6 +63,18 @@
     "commonSuppliers": ["The Times", "The Guardian", "Financial Times", "The Telegraph"],
     "defaultPrice": 15.00,
     "defaultSupplier": "The Times",
-    "managementURL": "https://my.thetimes.co.uk/account/"
+    "managementURL": "https://my.thetimes.co.uk/account/",
+    "supplierPrices": {
+      "The Times": 15.00,
+      "The Guardian": 11.99,
+      "Financial Times": 39.00,
+      "The Telegraph": 12.99
+    },
+    "supplierURLs": {
+      "The Times": "https://my.thetimes.co.uk/account/",
+      "The Guardian": "https://manage.theguardian.com/",
+      "Financial Times": "https://www.ft.com/products?segmentId=d890a3f4-051f-60ee-aa39-85ab9f3d8e29",
+      "The Telegraph": "https://secure.telegraph.co.uk/customer/secure/login.htm"
+    }
   }
 ]
