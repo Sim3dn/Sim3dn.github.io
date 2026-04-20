@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simeon Greenwood – S3D Books</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Glass Nav (hidden initially) -->
+  <header id="glassNav">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <button id="darkToggle">🌙</button>
+      <button id="simplifyToggle">📝 Simplify</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="images/hero-placeholder.jpg" alt="Hero" class="hero-image" />
+    <h1 class="hero-title">SIMEON GREENWOOD</h1>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about pushing creative boundaries to achieve exceptional results within given constraints. I love immersing myself in new software and innovative techniques...</p>
+    <ul class="skills">
+      <li><strong>Interior Design:</strong> Vectorworks, Revit, AutoCAD</li>
+      <li><strong>3D Design & Animation:</strong> Modo, Blender, 3Ds Max, Unreal</li>
+      <li><strong>Programming:</strong> Swift, Objective-C, Python</li>
+      <li><strong>Languages:</strong> English, Basic French, Learning Spanish</li>
+    </ul>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio & Products</h2>
+    
+    <div class="grid">
+      <!-- Book 1 -->
+      <div class="card" data-modal="modal1">
+        <img src="images/book1-placeholder.jpg" alt="Monster Journal" />
+        <h3>MONSTER JOURNAL</h3>
+        <p>Drawing Book - A to Z of Monsters</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+
+      <!-- Book 2 -->
+      <div class="card" data-modal="modal2">
+        <img src="images/book2-placeholder.jpg" alt="Monster Come In" />
+        <h3>MONSTER COME IN DIFFERENT SHAPES</h3>
+        <p>Poem book for kids to enjoy and learn</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+
+      <!-- Cushion -->
+      <div class="card" data-modal="modal3">
+        <img src="images/cushion-placeholder.jpg" alt="Cushion" />
+        <h3>No Monsters In My Bed</h3>
+        <p>Reassuring Cushion for Kids</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+
+      <!-- Tote Bag -->
+      <div class="card" data-modal="modal4">
+        <img src="images/tote-placeholder.jpg" alt="Tote Bag" />
+        <h3>No Monsters In My Bag</h3>
+        <p>Fun and functional tote bag</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+      
+      <!-- T-Shirt 1 -->
+      <div class="card" data-modal="modal5">
+        <img src="images/tshirt1-placeholder.jpg" alt="Floating Hearts T-Shirt" />
+        <h3>Floating Hearts</h3>
+        <p>Pink Edition – Love in all forms</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+
+      <!-- T-Shirt 2 -->
+      <div class="card" data-modal="modal6">
+        <img src="images/tshirt2-placeholder.jpg" alt="London T-Shirt" />
+        <h3>London's Heart</h3>
+        <p>Union Jack Icon Design</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+
+      <!-- T-Shirt 3 -->
+      <div class="card" data-modal="modal7">
+        <img src="images/tshirt3-placeholder.jpg" alt="Floral Charm" />
+        <h3>Focused Floral Charm</h3>
+        <p>Bright yellow flower design</p>
+        <button class="buy" onclick="window.open('https://amazon.com', '_blank')">Buy on Amazon</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:s3dbooks@gmail.com">s3dbooks@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Simeon Greenwood – All rights reserved
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
